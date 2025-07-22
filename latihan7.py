@@ -51,7 +51,7 @@ while True:
         simpan_csv()
     elif pilihan == "4":
         baca_csv()
-    elif pilihan == "0":
+    elif pilihan == "5":
         print("Terima kasih telah berkunjung")
         break
     else:
