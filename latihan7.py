@@ -42,7 +42,7 @@ def baca_csv():
             print("Data berhasil dibaca")
 while True:
     tampilan_menu()
-    pilihan = input("Pilih menu : ")
+    pilihan = int(input("Pilih menu : "))
     if pilihan == "1":
         tambah_peserta()
     elif pilihan == "2":
@@ -51,7 +51,7 @@ while True:
         simpan_csv()
     elif pilihan == "4":
         baca_csv()
-    elif pilihan == "5":
+    elif pilihan == "0":
         print("Terima kasih telah berkunjung")
         break
     else:
