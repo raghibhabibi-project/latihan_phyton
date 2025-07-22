@@ -14,7 +14,6 @@ percobaan_jumlah = 0
 while percobaan_jumlah<percobaan_maksimal:
     tebakan = int(input(f"Tebakan ke-{percobaan_jumlah + 1}: "))
     percobaan_jumlah = percobaan_jumlah+1
-
     if tebakan<rahasia:
         print("Terlalu kecil!")
     elif tebakan==rahasia:
